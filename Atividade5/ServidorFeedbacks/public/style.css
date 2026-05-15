@@ -1,0 +1,129 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 0;
+}
+
+form label {
+    font-weight: 600;
+    display: block;
+    margin-top: 15px;
+    color: #555;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.btn-link {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #007bff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 25px 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.feedback-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.feedback-list li {
+    background: #fafafa;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #007bff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.feedback-content {
+    flex: 1;
+    margin-right: 15px;
+}
+
+.feedback-content strong {
+    color: #007bff;
+}
+
+.btn-remove {
+    background-color: #dc3545;
+    width: auto;
+    margin-top: 0;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.btn-remove:hover {
+    background-color: #c82333;
+}
+
+.empty-message {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+}
